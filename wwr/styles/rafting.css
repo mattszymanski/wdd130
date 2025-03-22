@@ -5,11 +5,25 @@
     --accent2-color: #C2D8B9;
 }
 
-article {
-    position: absolute;
-    background-color: #E4F0D0;
+h1, h2, h3, h4, h5, h6{
+    font-family: "rammetto one";
 }
 
+p {
+    font-family: "plus jakarta sans";
+    color: black;
+}
+
+article {
+    position: absolute;
+    background-color: var(--secondary-color);
+}
+
+#clients {
+    float: right;
+    width: 20rem;
+    height: auto;
+}
 
 h1 {
     color: brown;
@@ -24,10 +38,6 @@ h1 {
 
 .hero div {
     position: relative;
-}
-
-p {
-    color: black;
 }
 
 a {
