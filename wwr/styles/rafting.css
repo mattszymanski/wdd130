@@ -14,29 +14,44 @@ p {
     color: black;
 }
 
-article {
+article p {
     position: absolute;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
+    top: 6rem;
+    color: white;
+    left: 10rem;
 }
 
 #clients {
-    float: right;
+    right: 10rem;
     width: 20rem;
     height: auto;
+    top: 2rem;
+    position: absolute;
+    opacity: 1;
+}
+
+.stats {
+    position: absolute;
 }
 
 h1 {
-    color: brown;
+
+    color: whitesmoke;
     position: absolute;
+    top: 2rem;
+    left: 30rem;
+
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    opacity: .6;
 }
 
-.hero div {
+.hero {
     position: relative;
 }
 
