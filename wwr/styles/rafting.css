@@ -23,21 +23,17 @@ article p {
 }
 
 #clients {
-    right: 10rem;
+    right: 2rem;
     width: 20rem;
     height: auto;
     top: 2rem;
     position: absolute;
-    opacity: 1;
 }
 
-.stats {
-    position: absolute;
-}
 
 h1 {
 
-    color: whitesmoke;
+    color: white;
     position: absolute;
     top: 2rem;
     left: 30rem;
@@ -48,11 +44,15 @@ h1 {
     display: block;
     width: 100%;
     height: auto;
-    opacity: .6;
+    opacity: .8;
 }
 
 .hero {
     position: relative;
+}
+
+.section1 {
+    top: 10rem;
 }
 
 a {
