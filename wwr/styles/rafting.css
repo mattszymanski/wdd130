@@ -9,31 +9,77 @@ h1, h2, h3, h4, h5, h6{
     font-family: "rammetto one";
 }
 
+header {
+    display: flex;
+    display: grid;
+    grid-template-columns: 40%;
+    height:8rem;
+    background-color: var(--primary-color);
+}
+
+header img {
+    
+    grid-column-start: 1;
+    align-items: center;
+    justify-self: center;
+    width: 28%;
+    height: auto;
+    
+}
+
+nav {
+    grid-column-start: 2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white; 
+    /* display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px solid black;
+    flex-basis: rem; */
+    
+    
+
+    
+
+}
+
 p {
     font-family: "plus jakarta sans";
     color: black;
+    font-size: large;
 }
 
 article p {
     position: absolute;
-    /* background-color: var(--secondary-color); */
-    top: 6rem;
-    color: white;
-    left: 10rem;
+        top: 6rem;
+    color: var(--accent1-color);
+    left: 15rem;
+    font-weight: 700;
 }
 
 #clients {
     right: 2rem;
     width: 20rem;
     height: auto;
-    top: 2rem;
+    top: 7rem;
     position: absolute;
 }
 
 
 h1 {
 
-    color: white;
+    color: var(--accent1-color);
     position: absolute;
     top: 2rem;
     left: 30rem;
@@ -49,15 +95,62 @@ h1 {
 
 .hero {
     position: relative;
+    background-color: var(--primary-color);
 }
 
 .section1 {
-    top: 10rem;
+    text-align: center;
+    padding: 2rem;
 }
 
-a {
-    color: blue;
+.section2 {
+    padding: 2rem;
+    background-color: var(--accent1-color);
 }
+
+.section2 h2 {
+    text-align: center;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    
+}
+
+figure img {
+    width: 15rem;
+    height: auto;
+        
+}
+
+figure figcaption {
+    text-align: center;
+    font-family: "plus jakarta sans";
+    font-size: medium;
+    
+}
+
+footer {
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+footer img {
+    padding: 2rem;
+}
+
+footer p {
+    font-size: small;
+    margin-right: 18rem;
+    text-align: left;
+}
+
 
 a.imagelink {
     text-decoration: none;

@@ -30,10 +30,6 @@ nav a {
 
 }
 
-figcaption {
-    margin: var(--margin);
-    font-weight: bold;
-}
 
 h1 {
     color: var(--background-color);
@@ -53,6 +49,10 @@ main img {
 p {
     margin: var(--margin);
     padding: 0;
+}
+
+.title {
+    font-weight: bold;
 }
 
 .grid {
