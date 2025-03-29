@@ -62,10 +62,11 @@ p {
 
 article p {
     position: absolute;
-        top: 6rem;
+    top: 6rem;
     color: var(--accent1-color);
     left: 15rem;
     font-weight: 700;
+    font-size: large;
 }
 
 #clients {
@@ -74,6 +75,8 @@ article p {
     height: auto;
     top: 7rem;
     position: absolute;
+    border: 10px solid black;
+    
 }
 
 
@@ -82,8 +85,9 @@ h1 {
     color: var(--accent1-color);
     position: absolute;
     top: 2rem;
-    left: 30rem;
-
+    left: 20rem;
+    
+    
 }
 
 .hero img {
@@ -91,6 +95,8 @@ h1 {
     width: 100%;
     height: auto;
     opacity: .8;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .hero {
@@ -106,6 +112,9 @@ h1 {
 .section2 {
     padding: 2rem;
     background-color: var(--accent1-color);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    
 }
 
 .section2 h2 {
