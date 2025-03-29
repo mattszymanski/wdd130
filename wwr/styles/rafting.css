@@ -112,24 +112,24 @@ h1 {
     text-align: center;
 }
 
-figure {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;
-    
-}
 
 figure img {
     width: 15rem;
     height: auto;
+    width: 110%;
+    
+    
         
 }
 
-figure figcaption {
+figcaption {
     text-align: center;
     font-family: "plus jakarta sans";
     font-size: medium;
+}
+
+.figure-flex {
+    display: flex;
     
 }
 
