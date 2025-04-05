@@ -118,7 +118,7 @@ h1 {
 }
 
 .contact {
-    color: var(--primary-color);
+    color: teal;
     position: relative;
     top: 1px;
     left: 20rem;
