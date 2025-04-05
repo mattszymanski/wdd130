@@ -84,10 +84,18 @@ article p {
     
 }
 
+.customers {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    width: 15%
+}
+
 .contact-info {
     display: flex;
-    justify-content: space-around;
-    margin-left: 15rem;
+    
+    
+    margin-left: 5rem;
 }
 
 main img {
