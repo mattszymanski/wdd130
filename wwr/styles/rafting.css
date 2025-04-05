@@ -102,6 +102,8 @@ main img {
     padding: 1rem;
     /* margin-left: 15rem; */
     background-color: var(--accent2-color);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 iframe {
