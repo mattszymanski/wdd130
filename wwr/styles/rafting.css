@@ -19,6 +19,7 @@ header {
     grid-template-columns: 40%;
     height:8rem;
     background-color: var(--primary-color);
+    border-bottom: 3px solid black;
 }
 
 header img {
@@ -37,7 +38,7 @@ nav {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    
+        
 }
 
 nav a {
@@ -85,7 +86,7 @@ article p {
 
 .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 15rem;
 }
 
@@ -128,7 +129,6 @@ h1 {
     width: 100%;
     height: auto;
     opacity: .9;
-    border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
 
