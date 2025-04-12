@@ -513,7 +513,6 @@ table {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 1rem;
-    margin-right: rem;
     height: auto;
     width: 100%;
     padding: 3rem;
