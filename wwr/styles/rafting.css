@@ -205,6 +205,7 @@ main img {
 .list {
     font-family: "plus jakarta sans";
     font-size: x-large;
+    font-weight: 500;
     margin-left: 5rem;
     margin-top: 3rem;
     
